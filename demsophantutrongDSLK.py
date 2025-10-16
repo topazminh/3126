@@ -12,7 +12,6 @@ def dem_so_phan_tu(node):
 head = Node(1)
 head.next = Node(2)
 head.next.next = Node(3)
-
 # Đếm số phần tử
 so_phan_tu = dem_so_phan_tu(head)
 print("Số phần tử trong danh sách liên kết là:", so_phan_tu)
